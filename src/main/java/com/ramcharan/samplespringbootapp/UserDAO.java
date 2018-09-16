@@ -23,7 +23,8 @@ public class UserDAO {
     private EntityManager entityManager;
 
     public UserEntity getUserById(int userId) {
-        return entityManager.find(UserEntity.class, userId);
+        UserEntity userEntity = entityManager.find(UserEntity.class, userId);
+        return userEntity;
     }
 
     public List<UserEntity> getAllUsers() {

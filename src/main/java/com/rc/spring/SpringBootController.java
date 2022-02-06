@@ -1,4 +1,4 @@
-package com.ramcharan.samplespringbootapp;
+package com.rc.spring;
 
 /**
  *
